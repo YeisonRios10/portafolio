@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Yeison Rios | Web Developer</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Yeison Rios</h1>
+    <ul class="navegacion">
+      <li><a href="#about" class="nav-link">Acerca de Mí</a></li>
+      <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="menu-hamburguesa" id="burger-menu">
+      <ion-icon class="barras" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="assets/images/yei.png" alt="Yeison " loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-titulo">Sobre Mi</h2>
+      <p class="bio-texto">
+        Soy un estudiante apasionado de Ingeniería de Sistemas en la UNAD, con una gran dedicación al desarrollo web. Mi enfoque eficiente y resolutivo se refleja en la construcción de soluciones web creativas y efectivas. Busco constantemente colaborar en proyectos innovadores donde mi mezcla única de habilidades y actitud de aprendizaje continuo aporten un valor significativo.
+      </p>
+    </div>
+  </section>
+  <!-- More about -->
+  <section class="mas-sobre">
+    <h2>Más sobre mí</h2>
+    <p>
+      A lo largo de mi trayectoria, he descubierto que el trabajo en equipo es la esencia de la innovación. Mi experiencia en proyectos colaborativos no solo ha impulsado el desarrollo de mis habilidades técnicas, brindándome amplios conocimientos en HTML, CSS, Bootstrap, JavaScript, Python y Flask, sino también ha sido fundamental en el fortalecimiento de mis habilidades blandas. El constante intercambio de ideas y la colaboración estrecha con compañeros han potenciado mi capacidad de comunicación, permitiéndome articular de manera efectiva mis ideas y comprender las perspectivas de los demás. Este enfoque colaborativo no solo ha enriquecido la calidad de los proyectos en los que he participado, sino que también ha contribuido significativamente a mi crecimiento personal y profesional.
+    </p>
+  </section>
+  <!-- Skills section -->
+  <section class="habilidades" id="habilidades">
+    <h2 class="encabezado-habilidad">Mis mejores habilidades</h2>
+
+    <div class="contenedor-habilidad">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+        <img src="assets/icons/icons8-python.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+        <!-- <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icono tarjeta-icono" /> -->
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+        <img src="assets/icons/icons8-django.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+        <img src="assets/icons/icons8-flask.svg" alt="" loading="lazy" class="icono tarjeta-icono" />
+      </div>
+    </div>
+  </section>
+  <!-- Projects section -->
+  <section class="proyectos" id="proyectos">
+    <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+    <div class="contenedor-de-proyectos">
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+        <img src="assets/images/cinebook.png" alt="rastreador-de-gastos" loading="lazy" class="foto-proyecto" />
+        <h3 class="titulo-de-proyectos">Cinebook</h3>
+        <p class="detalle-de-proyecto">
+        Sitio web diseñado para usuarios quienes desean conocer algunas películas
+        basadas en libros e historias destacando harry potter y los juegos del hambre.
+        </p>
+        <a href="https://yeisonrios10.github.io/Cinebook/" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+      </div>
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto ">
+        <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="foto-proyecto" />
+        <h3 class="titulo-proyecto">Pc doctor</h3>
+        <p class="detalles-de-proyecto">
+          Clinica del PC, es un sitio diseñado para dar servicio a
+          aquellas personas quienes necesitan de algún mantenimiento o cambio de componentes para su equipo.
+        </p>
+        <a href="#" target="_blank" class="project-link">Echale un vistazo!</a>
+      </div>
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+        <img src="assets/images/cinebookv2.png" alt="greeny-earth" loading="lazy" class="foto-proyecto" />
+        <h3 class="titulo-de-proyecto">Cinebook con Python y Flask</h3>
+        <p class="detalles-de-proyecto">
+        Versión 2 de <a href="https://yeisonrios10.github.io/Cinebook/">Cinebook</a> en el que se integra un entorno virtual con ayuda del framework Flask y el lenguaje de programación Python para crear una API aún en desarrollo.
+        </p>
+        <a href="https://github.com/YeisonRios10/Cinebook_V1/tree/Yeison" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section -->
+  <section class="contacto" id="contacto">
+    <h2>Contáctame</h2>
+    <div class="contenedor-formulario-contacto">
+      <div class="formulario-contacto">
+        <form id="form" action="https://formspree.io/f/meqyjpyl"
+        method="POST">
+          <div class="control-formulario">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="sender-name" placeholder="Escribe tu nombre" class="input-field"
+              required />
+          </div>
+          <div class="control-formulario">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="sender-email" placeholder="Ingreso tu correo electrónico"
+              class="input-field" required />
+          </div>
+          <div class="control-formulario">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" name="mensaje"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Enviar" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Social accounts - Fixed to the right -->
+  <div class="sociales">
+    <a href="https://wa.me/3227257887" target="_blank"><img src="assets/icons/icons8-whatsapp.gif" alt="Whatsapp" loading="lazy"
+        class="socicon" /></a>
+    <!-- <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
+        class="socicon" /></a> -->
+    <a href="https://www.linkedin.com/in/yeison-rios-molina/" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy"
+        class="socicon" /></a>
+    <a href="https://github.com/YeisonRios10" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+  </div>
+  <!-- Botón Scroll -->
+  <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+  ><img
+    src="assets/icons/icons8-upward-arrow.gif"
+    class="socicon up-arrow"
+    alt="desplazarse-hacia-arriba"
+/></i>
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Codeado por
+        <a href="https://www.linkedin.com/in/yeison-rios-molina/" target="_blank">Yeison Rios</a>
+      </p>
+    </footer>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
